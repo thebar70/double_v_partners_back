@@ -35,6 +35,10 @@ class TicketType extends GraphQLType
             'created_at' => [
                 'type' => Type::nonNull(Type::string()),
                 'description' => 'Ticket created at',
+            ],
+            'updated_at' => [
+                'type' => Type::nonNull(Type::string()),
+                'description' => 'Ticket updated at',
             ]
         ];
     }
